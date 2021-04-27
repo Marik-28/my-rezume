@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.main-wrap{
+    width: 980px;
+    margin:0 auto;
+    display: flex;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.photo{
+    margin-left: -25px;
+}
+.left-side{
+    display:inline-block;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 25px;
+    background-color: #1e2939;
+    color: #fff;
+}
+.left-side-title{
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.skills ul {
+    padding-left: 15px;
+}
+.skills ul li::marker{
+    color: #f36c3e;
+}
+
+.contacst, .skills{
+    padding-top: 30px;
+}
+.right-side{
+    display:inline-block;
+    width: 680px;
+    background-color:ghostwhite;
+}
+.phone{
+    margin-bottom: 5px;
+}
+
+.phone a {
+    color: #767681;
+    text-decoration: none;
+}
+.mail a{
+    color: #767681;
+}
+.right-side{
+    padding-top: 65px;
+    padding-left: 50px;
+}
+.right-side-name{
+    padding-top: 15px;
+    font-size: 1.4em;
+    padding-bottom: 15px;
+}
+.right-side-projects{
+    padding-top: 15px;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+}
+.right-side-projects1{
+    padding-left: 15px;
+}
+.right-side-projects1 li{
+    color: #767681
+}
+.right-side-projects1 b{
+    color: black;
+}
+.right-side-Work-Experiense{
+    padding-top: 15px;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+}
+.right-side-Work-Experiense1{
+    font-size: 1.2em;
+}
+.right-side-Work-Experiense1 strong{
+    color: chocolate;
+}
+.right-side-Work{
+    font-size: 0.9em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #767681
+}
+.right-side-Work1{
+    padding-left: 15px;
+}
+.right-side-Menager{
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.right-side-Menager strong{
+    color: chocolate
+}
+.right-side-Menager1{
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    color: #767681;
+}
+.right-side-Education{
+    padding-top: 15px;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+}
+.right-side-College{
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: chocolate
+}
